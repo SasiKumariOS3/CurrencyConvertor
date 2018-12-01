@@ -17,6 +17,8 @@
 		7564FCCA21AFA7DA00E3D38D /* CurrencyExchangerTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7564FCC921AFA7DA00E3D38D /* CurrencyExchangerTaskUITests.swift */; };
 		759FD56021B1228900C49154 /* CurrencyConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759FD55F21B1228900C49154 /* CurrencyConvertor.swift */; };
 		75A3181121B253700033623A /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3181021B253700033623A /* CoreDataHandler.swift */; };
+		75A3181821B26AE20033623A /* Currency+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3181621B26AE20033623A /* Currency+CoreDataClass.swift */; };
+		75A3181921B26AE20033623A /* Currency+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3181721B26AE20033623A /* Currency+CoreDataProperties.swift */; };
 		75F7B53A21AFAF530061F218 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7B53921AFAF530061F218 /* ConstantStrings.swift */; };
 		75F7B53C21AFB2A30061F218 /* WebserviceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7B53B21AFB2A30061F218 /* WebserviceHandler.swift */; };
 		75F7B53E21AFB55C0061F218 /* IBExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F7B53D21AFB55C0061F218 /* IBExtensions.swift */; };
@@ -58,6 +60,8 @@
 		7564FCCB21AFA7DA00E3D38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759FD55F21B1228900C49154 /* CurrencyConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvertor.swift; sourceTree = "<group>"; };
 		75A3181021B253700033623A /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		75A3181621B26AE20033623A /* Currency+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataClass.swift"; sourceTree = "<group>"; };
+		75A3181721B26AE20033623A /* Currency+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Currency+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		75F7B53921AFAF530061F218 /* ConstantStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
 		75F7B53B21AFB2A30061F218 /* WebserviceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceHandler.swift; sourceTree = "<group>"; };
 		75F7B53D21AFB55C0061F218 /* IBExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBExtensions.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 			children = (
 				75F7B53B21AFB2A30061F218 /* WebserviceHandler.swift */,
 				75A3181021B253700033623A /* CoreDataHandler.swift */,
+				75A3181621B26AE20033623A /* Currency+CoreDataClass.swift */,
+				75A3181721B26AE20033623A /* Currency+CoreDataProperties.swift */,
 			);
 			path = ModelHandler;
 			sourceTree = "<group>";
@@ -334,7 +340,9 @@
 				75F7B53A21AFAF530061F218 /* ConstantStrings.swift in Sources */,
 				7564FCA921AFA79300E3D38D /* ViewController.swift in Sources */,
 				7564FCAF21AFA79400E3D38D /* CurrencyExchangerTask.xcdatamodeld in Sources */,
+				75A3181921B26AE20033623A /* Currency+CoreDataProperties.swift in Sources */,
 				75F7B54021AFC3EA0061F218 /* CustomerDetailsViewController.swift in Sources */,
+				75A3181821B26AE20033623A /* Currency+CoreDataClass.swift in Sources */,
 				75F7B54221AFC4050061F218 /* CustomerBalanceViewController.swift in Sources */,
 				75F7B53C21AFB2A30061F218 /* WebserviceHandler.swift in Sources */,
 				7564FCA721AFA79300E3D38D /* AppDelegate.swift in Sources */,
