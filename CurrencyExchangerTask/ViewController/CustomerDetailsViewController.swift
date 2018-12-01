@@ -25,7 +25,6 @@ class CustomerDetailsViewController: UIViewController {
     var selectStr: String = ""
     var getConvervalModel = CurrencyConvertor()
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         txtfld_givencurrency.inputAccessoryView = pickey_Currencytype

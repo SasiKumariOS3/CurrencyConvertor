@@ -15,7 +15,6 @@ struct APPURL {
     private struct Domains {
         static let dev = "http://www.apilayer.net"
     }
-    
     private  struct Routes {
         static let api = "/api/live?"
     }

@@ -77,5 +77,5 @@ class CoreDataHandler: NSObject {
             return false
         }
     }
-
+    
 }

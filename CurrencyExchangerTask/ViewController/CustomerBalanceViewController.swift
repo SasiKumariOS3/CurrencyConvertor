@@ -17,14 +17,12 @@ class CustomerBalanceViewController: UIViewController {
     
     var getConvertValues = NSManagedObject()
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         lbl_blcINR.text = String(format: "INR : %@", getConvertValues.value(forKey: "inr") as! CVarArg)
         lbl_blcSRD.text = String(format: "SRD : %@", getConvertValues.value(forKey: "srd") as! CVarArg)
         lbl_blcUSD.text = String(format: "USD : %@", getConvertValues.value(forKey: "usd") as! CVarArg)
-
     }
     
     @IBAction func btnAction_clearentries(_ sender: UIButton) {

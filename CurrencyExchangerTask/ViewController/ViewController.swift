@@ -11,7 +11,6 @@
 import UIKit
 import CoreData
 
-
 extension UIViewController {
     
     func showAlert (title:String, message:String, completion:@escaping (_ result:Bool) -> Void) {
